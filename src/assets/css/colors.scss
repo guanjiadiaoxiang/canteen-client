@@ -1,0 +1,8 @@
+$theme_color: rgb(33, 33, 174);
+@mixin clearFix {
+    &::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
